@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_label">用 UofT Print 打印</string>
+
+    <string name="release_name">取件名</string>
+    <string name="release_name_hint">例如你的 UTORid</string>
+    <string name="release_name_help">在打印机的取件终端上，你的任务会显示为这个名字。</string>
+    <string name="release_name_missing">打印到 UofT 打印机前请先设置。可用字母、数字、点、横线和下划线。</string>
+
+    <string name="howto_title">在任意 App 中打印</string>
+    <string name="howto_body">打印前请先连接 UofT 网络。在任意 App 里选择“打印”，再选你的打印机。两小时内到取件终端刷 TCard 取件。</string>
+    <string name="howto_none_title">打开你要用的打印机</string>
+    <string name="howto_none_body">在下方打开打印机，它们就会出现在系统打印对话框里。如果没有出现，请在系统打印设置中启用 UofT Print。</string>
+    <string name="print_file">打印文件</string>
+    <string name="open_print_settings">打印设置</string>
+
+    <string name="section_uoft">UofT 打印机</string>
+    <string name="section_uoft_detail">已在打印对话框中显示 %1$d / %2$d 台</string>
+    <string name="search_hint">搜索图书馆或队列</string>
+    <string name="search_empty">没有匹配“%1$s”的打印机。</string>
+    <string name="clear">清除</string>
+    <string name="section_custom">其他 LPD 打印机</string>
+    <string name="custom_empty">任何接受 LPD 任务的打印机都可以添加，只需主机地址和队列名。</string>
+    <string name="add_printer">添加打印机</string>
+    <string name="edit_printer">编辑打印机</string>
+
+    <string name="sides_one_only">仅单面</string>
+    <string name="sides_one">单面</string>
+    <string name="sides_long">双面，长边翻页</string>
+    <string name="sides_short">双面，短边翻页</string>
+    <string name="sides_one_short">单面</string>
+    <string name="sides_long_short">长边</string>
+    <string name="sides_short_short">短边</string>
+
+    <string name="printer_address">%2$s 上的 %1$s，%3$s</string>
+    <string name="show_in_dialog">启用</string>
+    <string name="show_in_dialog_help">在打印对话框中显示</string>
+    <string name="default_sides">默认单双面</string>
+    <string name="default_sides_help">在打印对话框中预先选中，每次打印仍可更改。</string>
+    <string name="sides_one_only_help">这台打印机没有双面单元，只能单面打印。</string>
+    <string name="quality">彩色质量</string>
+    <string name="quality_standard">标准 300 dpi</string>
+    <string name="quality_high">清晰 600 dpi</string>
+    <string name="quality_help">用于彩色页面。清晰模式的数据量约为四倍。黑白页面始终以 600 dpi 发送。</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="delete_title">删除 %1$s？</string>
+    <string name="delete_body">它会从打印对话框中消失，之后可以重新添加。</string>
+
+    <string name="field_name">名称</string>
+    <string name="field_name_hint">办公室打印机</string>
+    <string name="field_host">主机名或 IP 地址</string>
+    <string name="field_queue">队列</string>
+    <string name="field_port">端口</string>
+    <string name="field_language">打印机语言</string>
+    <string name="field_language_help">与该打印机在 Linux 上使用的驱动保持一致。大多数办公打印机支持 PostScript；只支持 PCL 的打印机请选 PCL。</string>
+    <string name="field_color">彩色打印机</string>
+    <string name="field_duplex">支持双面打印</string>
+
+    <string name="status_preparing">正在准备文档</string>
+    <string name="status_rendering">正在渲染第 %1$d / %2$d 页</string>
+    <string name="status_sending">正在发送到 %1$s</string>
+    <string name="error_no_release_name">请先在 UofT Print 中设置取件名，否则在打印机上找不到你的任务。</string>
+    <string name="error_bad_document">无法读取这个文档，它可能已损坏或设有密码。</string>
+    <string name="error_host_not_found">找不到 %1$s，请检查网络连接。</string>
+    <string name="error_connect">无法连接 %1$s，请检查网络后重试。</string>
+    <string name="error_connect_uoft">无法连接 UofT 打印服务器。请确认已连接 UofT 网络后重试。</string>
+    <string name="error_queue_rejected">打印服务器不接受队列 %1$s，请检查队列名。</string>
+    <string name="error_job_rejected">打印服务器拒绝了这个任务，请稍后重试。</string>
+    <string name="error_connection_lost">发送过程中连接中断，请重试。</string>
+    <string name="error_printer_missing">这台打印机已在 UofT Print 中被删除或关闭。</string>
+    <string name="error_memory">内存不足，无法渲染此文档。请改用标准质量。</string>
+    <string name="error_unexpected">打印失败：%1$s</string>
+    <string name="error_open_file">无法打开这个文件进行打印。</string>
+</resources>

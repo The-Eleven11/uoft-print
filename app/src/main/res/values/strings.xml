@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UofT Print</string>
+    <string name="share_label">Print with UofT Print</string>
+
+    <string name="release_name">Release name</string>
+    <string name="release_name_hint">e.g. your UTORid</string>
+    <string name="release_name_help">Your jobs are listed under this name at the print release station.</string>
+    <string name="release_name_missing">Set a name before printing to UofT printers. Letters, digits, dot, dash and underscore.</string>
+
+    <string name="howto_title">Print from any app</string>
+    <string name="howto_body">Connect to the UofT network first. Then choose Print in any app, then pick one of your printers. Collect the job at the release station with your TCard within two hours.</string>
+    <string name="howto_none_title">Turn on the printers you use</string>
+    <string name="howto_none_body">Switch on printers below and they appear in the system print dialog. If they don\'t, turn on UofT Print in the system print settings.</string>
+    <string name="print_file">Print a file</string>
+    <string name="open_print_settings">Print settings</string>
+
+    <string name="section_uoft">UofT printers</string>
+    <string name="section_uoft_detail">%1$d of %2$d shown in the print dialog</string>
+    <string name="search_hint">Search library or queue</string>
+    <string name="search_empty">No printer matches \"%1$s\".</string>
+    <string name="clear">Clear</string>
+    <string name="section_custom">Other LPD printers</string>
+    <string name="custom_empty">Add any printer that accepts LPD jobs, using its host and queue name.</string>
+    <string name="add_printer">Add printer</string>
+    <string name="edit_printer">Edit printer</string>
+
+    <string name="sides_one_only">One-sided only</string>
+    <string name="sides_one">One-sided</string>
+    <string name="sides_long">Two-sided, long edge</string>
+    <string name="sides_short">Two-sided, short edge</string>
+    <string name="sides_one_short">One-sided</string>
+    <string name="sides_long_short">Long edge</string>
+    <string name="sides_short_short">Short edge</string>
+
+    <string name="printer_address">%1$s on %2$s, %3$s</string>
+    <string name="lang_ps">PostScript</string>
+    <string name="lang_pcl">PCL</string>
+    <string name="show_in_dialog">Active</string>
+    <string name="show_in_dialog_help">Show in print dialog</string>
+    <string name="default_sides">Default sides</string>
+    <string name="default_sides_help">Preselected in the print dialog. You can still change it for each job.</string>
+    <string name="sides_one_only_help">This printer has no duplex unit, so it always prints one-sided.</string>
+    <string name="quality">Colour quality</string>
+    <string name="quality_standard">Standard, 300 dpi</string>
+    <string name="quality_high">Sharp, 600 dpi</string>
+    <string name="quality_help">For colour pages. Sharp sends about four times as much data. Black-and-white pages are always sent at 600 dpi.</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete_title">Delete %1$s?</string>
+    <string name="delete_body">It disappears from the print dialog. You can add it again later.</string>
+
+    <string name="field_name">Name</string>
+    <string name="field_name_hint">Office printer</string>
+    <string name="field_host">Host or IP address</string>
+    <string name="field_queue">Queue</string>
+    <string name="field_port">Port</string>
+    <string name="field_language">Printer language</string>
+    <string name="field_language_help">Use what the printer\'s Linux driver would use. Most office printers speak PostScript; choose PCL for PCL-only printers.</string>
+    <string name="field_color">Colour printer</string>
+    <string name="field_duplex">Can print two-sided</string>
+
+    <string name="status_preparing">Preparing document</string>
+    <string name="status_rendering">Rendering page %1$d of %2$d</string>
+    <string name="status_sending">Sending to %1$s</string>
+    <string name="error_no_release_name">Set your release name in UofT Print first, so you can find the job at the printer.</string>
+    <string name="error_bad_document">This document can\'t be read. It may be damaged or password-protected.</string>
+    <string name="error_host_not_found">Can\'t find %1$s. Check your internet connection.</string>
+    <string name="error_connect">Can\'t reach %1$s. Check your internet connection and try again.</string>
+    <string name="error_connect_uoft">Can\'t reach the UofT print server. Make sure you are connected to the UofT network, then try again.</string>
+    <string name="error_queue_rejected">The print server doesn\'t accept the queue %1$s. Check the queue name.</string>
+    <string name="error_job_rejected">The print server refused the job. Try again in a moment.</string>
+    <string name="error_connection_lost">The connection dropped while sending. Try again.</string>
+    <string name="error_printer_missing">This printer was removed or switched off in UofT Print.</string>
+    <string name="error_memory">Not enough memory to render this document. Try Standard quality.</string>
+    <string name="error_unexpected">Printing failed: %1$s</string>
+    <string name="error_open_file">This file can\'t be opened for printing.</string>
+</resources>

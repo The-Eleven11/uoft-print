@@ -1,0 +1,21 @@
+# Build output and IDE state
+.gradle/
+build/
+.kotlin/
+captures/
+*.iml
+.idea/*
+!.idea/gradle.xml
+
+# Machine-specific paths
+local.properties
+
+# Release signing: never commit keys or their passwords
+keystore.properties
+*.jks
+*.keystore
+
+# Local interpreters used by tests (Ghostscript / GhostPCL binaries) and local builds
+tools/
+dist/
+lpd_jobs*/
